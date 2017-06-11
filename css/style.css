@@ -1,0 +1,264 @@
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+  src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"), url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "OpenSansLight";
+  src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+  src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"), url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "OpenSansItalic";
+  src: url("../fonts/OpenSansItalic/OpenSansItalic.eot");
+  src: url("../fonts/OpenSansItalic/OpenSansItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"), url("../fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"), url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "OpenSansExtraBold";
+  src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot");
+  src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"), url("../fonts/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "OpenSansExtraBoldItalic";
+  src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot");
+  src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"), url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "OpenSansBoldItalic";
+  src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot");
+  src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff") format("woff"), url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "OpenSansRegularItalic";
+  src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot");
+  src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.woff") format("woff"), url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+  src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "OpenSansSemiBoldItalic";
+  src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot");
+  src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff") format("woff"), url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "OpenSansRegular"; }
+
+html {
+  font-size: 16px; }
+
+fieldset {
+  border: none;
+  margin: 0 auto; }
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .wrapper .wrapper__flex_container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    @media all and (max-width: 600px) {
+      .wrapper .wrapper__flex_container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column; } }
+  .wrapper .add_books {
+    width: 220px;
+    padding: 5px 5px 20px 5px;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    margin: 10px;
+    -webkit-box-shadow: 2px 4px 5px -1px #f8f9f9;
+    box-shadow: 2px 4px 5px -1px #f8f9f9; }
+    @media all and (max-width: 600px) {
+      .wrapper .add_books {
+        width: 250px;
+        margin: 10px auto 10px auto; } }
+    .wrapper .add_books fieldset {
+      margin-bottom: 20px;
+      padding: 0;
+      text-align: center;
+      position: relative; }
+    .wrapper .add_books h2 {
+      font-family: "OpenSansBold"; }
+    .wrapper .add_books label {
+      text-align: left;
+      margin-bottom: 3px;
+      display: block;
+      font-size: .9rem; }
+    .wrapper .add_books input {
+      padding: 4px 5px 4px 5px;
+      border: 1px solid #D7DBDD; }
+    .wrapper .add_books input::-webkit-outer-spin-button,
+    .wrapper .add_books input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0; }
+    .wrapper .add_books input[type=number] {
+      -moz-appearance: textfield; }
+    .wrapper .add_books input[type="button"] {
+      background-color: #5499C7;
+      border-radius: 3px;
+      border: none;
+      padding: 10px 15px 10px 15px;
+      margin: 0 auto;
+      cursor: pointer;
+      color: #fff;
+      display: block;
+      font-family: "OpenSansBold"; }
+    .wrapper .add_books__message {
+      display: block;
+      width: 160px;
+      height: 30px;
+      font: 0.8rem "OpenSansRegular";
+      background-color: #bb4444;
+      text-align: center;
+      line-height: 30px;
+      border-radius: 3px;
+      position: absolute;
+      top: 50px;
+      left: 21px;
+      z-index: 1;
+      color: #fff; }
+      .wrapper .add_books__message:before {
+        position: absolute;
+        top: -10px;
+        left: 73px;
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #bb4444; }
+  .wrapper .books_catalog {
+    max-width: 2000px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 5px; }
+    .wrapper .books_catalog__item {
+      width: 250px;
+      height: 150px;
+      border: 1px solid #D7DBDD;
+      background-color: #f7f7f7;
+      margin: 10px;
+      padding: 10px; }
+      .wrapper .books_catalog__item:hover {
+        -webkit-box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.25);
+        box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.25);
+        -webkit-transition: all .1s ease-in-out;
+        transition: all .1s ease-in-out; }
+      .wrapper .books_catalog__item .title {
+        font: 1rem "OpenSansBold"; }
+      .wrapper .books_catalog__item .author {
+        font: 0.9rem "OpenSansRegular"; }
+      .wrapper .books_catalog__item .year {
+        display: none; }
+      .wrapper .books_catalog__item .pages {
+        display: none; }
+      .wrapper .books_catalog__item .delete {
+        cursor: pointer;
+        display: none;
+        font-size: 1.5rem;
+        margin-right: 15px; }
+      .wrapper .books_catalog__item .edit {
+        cursor: pointer;
+        display: none;
+        font-size: 1.5rem; }
+      .wrapper .books_catalog__item:hover .delete {
+        display: inline-block; }
+      .wrapper .books_catalog__item:hover .edit {
+        display: inline-block; }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4); }
+  .modal .modal__content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    max-width: 800px;
+    font-family: "OpenSansRegular"; }
+    .modal .modal__content p {
+      display: inline-block; }
+    .modal .modal__content .modal__book_title {
+      font-family: "OpenSansBold"; }
+    .modal .modal__content .modal__btn_block {
+      margin-top: 20px; }
+    .modal .modal__content .modal__close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold; }
+      .modal .modal__content .modal__close:hover, .modal .modal__content .modal__close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer; }
+    .modal .modal__content .modal__no,
+    .modal .modal__content .modal__yes {
+      cursor: pointer;
+      display: inline-block;
+      margin-right: 10px;
+      background-color: #5499C7;
+      border-radius: 3px;
+      border: none;
+      padding: 7px 20px 7px 20px;
+      color: #fff;
+      font-family: "OpenSansBold"; }

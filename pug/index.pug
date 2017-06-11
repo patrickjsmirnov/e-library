@@ -1,0 +1,51 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width initial-scale=1")
+    meta(name="description" content="test task for ucoz")
+    meta(name="author" content="dima")
+    title ucoz test task
+
+    // style
+    link(href='css/bundle.css', rel='stylesheet')
+    link(href="font-awesome/css/font-awesome.min.css" rel='stylesheet')
+
+  body
+    .modal
+      .modal__content
+        span.modal__close &times;
+        p Вы действительно хотите удалить книгу
+        p.modal__book_title
+        .modal__btn_block
+          span.modal__yes Да
+          span.modal__no Нет
+
+    .wrapper
+      .wrapper__flex_container
+        aside.add_books
+          h2 Настройки
+          form(method="POST" action="/" name="form" class="add_books__form")
+            fieldset
+              label(for="title") Название
+              input(type='text' id="title" name='title' autocomplete="off")
+
+            fieldset
+              label(for="author") Автор
+              input(type='text' id='author' name='author' autocomplete="off")
+
+            fieldset
+              label(for="year") Год издания
+              input(type='number' id='year' name='year' autocomplete="off")
+
+            fieldset
+              label(for="pages") Количество страниц
+              input(type="number" id="pages" name="pages" autocomplete="off")
+
+            input(type="button" name="submit" class="btnForm" value='Сохранить')
+
+        section.books_catalog
+
+    // scripts
+    script(src='js/babel/script.min.js')

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta name="description" content="test task for ucoz">
+    <meta name="author" content="dima">
+    <title>ucoz test task</title>
+    <!-- style-->
+    <link href="css/bundle.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="modal">
+      <div class="modal__content"><span class="modal__close">&times;</span>
+        <p>Вы действительно хотите удалить книгу</p>
+        <p class="modal__book_title"></p>
+        <div class="modal__btn_block"><span class="modal__yes">Да</span><span class="modal__no">Нет</span></div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="wrapper__flex_container">
+        <aside class="add_books">
+          <h2>Настройки</h2>
+          <form class="add_books__form" method="POST" action="/" name="form">
+            <fieldset>
+              <label for="title">Название</label>
+              <input type="text" id="title" name="title" autocomplete="off">
+            </fieldset>
+            <fieldset>
+              <label for="author">Автор</label>
+              <input type="text" id="author" name="author" autocomplete="off">
+            </fieldset>
+            <fieldset>
+              <label for="year">Год издания</label>
+              <input type="number" id="year" name="year" autocomplete="off">
+            </fieldset>
+            <fieldset>
+              <label for="pages">Количество страниц</label>
+              <input type="number" id="pages" name="pages" autocomplete="off">
+            </fieldset>
+            <input class="btnForm" type="button" name="submit" value="Сохранить">
+          </form>
+        </aside>
+        <section class="books_catalog"></section>
+      </div>
+    </div>
+    <!-- scripts-->
+    <script src="js/babel/script.min.js"></script>
+  </body>
+</html>
